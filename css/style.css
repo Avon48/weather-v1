@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.weather-content {
+    background-image: url('../img/img1.jpg');
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather__block {
+    background-color: rgba(240, 248, 255, 0.61);
+    width: 450px;
+    height: 650px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.country__name {
+    font-size: 40px;
+}
+
+.degree {
+    font-size: 60px;
+}
+
+.disclaimer {
+    font-size: 30px;
+}
+
+.weather__logo {
+    width: 120px;
+}
+
+
+
+@media (max-width:460px) {
+
+    .country__name {
+        font-size: 40px;
+    }
+    
+    .degree {
+        font-size: 60px;
+    }
+    
+    .disclaimer {
+        font-size: 30px;
+    }
+    
+    .weather__logo {
+        width: 120px;
+    }
+    .weather__block {
+        width: 450px;
+        height: 550px;
+    }
+}
+
+
+
+
+
+@media (max-width:360px) {
+    .country__name {
+        font-size: 30px;
+    }
+
+    .degree {
+        font-size: 50px;
+    }
+
+    .disclaimer {
+        font-size: 20px;
+    }
+
+    .weather__logo {
+        width: 100px;
+    }
+
+    .weather__block {
+        width: 450px;
+        height: 450px;
+    }
+}
